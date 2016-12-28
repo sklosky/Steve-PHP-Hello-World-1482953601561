@@ -1,0 +1,9 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: Steve PHP Hello World
+  host: Steve-Hello-World
+  disk_quota: 1024M
+  buildpack: php_buildpack
